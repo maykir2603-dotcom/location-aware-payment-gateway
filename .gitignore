@@ -1,0 +1,28 @@
+# Environment
+.env
+
+# Java
+target/
+*.log
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Local configuration
+application-local.properties
+application-dev.properties
+
+# Environment files
+.env.*
+!.env.example
